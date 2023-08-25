@@ -1,0 +1,50 @@
+.cards{
+    color: aliceblue;
+    background-color:#1F3F51 ;
+    border: 3px solid red ;
+    border-radius: 11px;
+    height: 10rem;
+
+}
+
+
+.left_cards{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    justify-content: center;
+    color: aliceblue;
+    background-color:#1F3F51 ;
+    border: 3px solid red ;
+    border-radius: 11px;
+   
+
+}
+
+.left_cards div{
+    margin: 10px;
+}
+
+.scards{
+    color: aliceblue;
+    background-color:#1F3F51 ;
+    border: 3px solid red ;
+    border-radius: 11px;
+
+
+}
+
+.scards div{
+    margin: 10px;
+}
+.cards div
+{ margin: 4px;}
+
+
+
+.bcards{
+    color: aliceblue;
+    background-color:#1F3F51 ;
+    border: 3px solid red ;
+    border-radius: 11px; 
+}

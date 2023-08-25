@@ -1,0 +1,28 @@
+import React from 'react'
+import Card2 from './Card2u'
+import Card4u from './Card4u'
+import Card5l from './Card5l'
+import Card7u from './Card7u'
+import Suntime
+ from './suntime'
+
+export default function Card_top_right() {
+  return (
+    <div  style={{border:"2px solid green"}} >
+     <div style={{color:"white"}}>
+     Today's Highlight
+     </div> 
+      <div className="up" >
+
+      <Card2/>
+      <Suntime/>
+     
+      </div>
+      <div className="lower" >
+        <Card4u/>
+        <Card5l/>
+        <Card7u/>
+      </div>
+    </div>
+  )
+}
