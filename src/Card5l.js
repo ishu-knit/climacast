@@ -9,13 +9,17 @@ const {vis,setVis} = useContext(visibile);
 
 
   return (
-    <div className='container'>
+    // <div className='container'>
 
     <div className='scards'>
+<div>
+
+
     <div>visibility <VisibilityIcon fontSize='9px'/></div>
     <div><span style={{fontWeight:"bolder" , fontSize:"20px" }} >  {vis} </span> km </div>      
     <div> Description </div>
     </div>
-    </div>
+</div>
+    // </div>
   )
 }

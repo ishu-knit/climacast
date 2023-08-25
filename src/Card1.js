@@ -49,6 +49,9 @@ return (
 
     <div className='container'>
     <div  className='left_cards'>
+
+    <div>
+
     <input type="text" 
     placeholder='Enter City' 
    onChange={typing}
@@ -59,9 +62,11 @@ return (
 
    style={{border:"none" , borderBottom:"3px solid black", outline:"None", color:"white" ,backgroundColor:"transparent" , marginBottom:"13px" , marginTop:"28px"}}
    />
+    </div>
 
-
+        <div>
        <img className='mainimg' style={{  width:"100px" ,  height:"100px", filter:"brightness(2)" ,display:"inline-block", background:"transparent"}} src={`https://openweathermap.org/img/wn/${icon}.png`}  alt="lk"  height= "60px" />
+        </div>
 
       <div style={{fontSize:"2rem"}}>{temp}°C</div>
       <div style={{fontSize:"1.3rem"}}>{con}</div>

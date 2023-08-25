@@ -31,7 +31,6 @@ function App() {
             <humid.Provider value={{hum,setHum}}>
               <visibile.Provider value={{vis,setVis}}>
                 <div >
-           
                   <Top />
                   <Bottom/>
                 </div>

@@ -8,10 +8,8 @@ import Suntime
 
 export default function Card_top_right() {
   return (
-    <div  style={{border:"2px solid green"}} >
-     <div style={{color:"white"}}>
-     Today's Highlight
-     </div> 
+    <div className='topright' >
+     <div style={{color:"white"}}>  Today's Highlight</div> 
       <div className="up" >
 
       <Card2/>

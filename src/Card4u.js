@@ -7,14 +7,18 @@ const Card4u = () => {
     const {hum,setHum} = useContext(humid);
 
     return (
-        <div className='container'>
+        // <div className='container'>
 
         <div className='scards'>
+
+        <div>
+
         <div>humidity <WaterDropIcon fontSize="9px"/> </div>
             <div><span style={{fontWeight:"bolder" , fontSize:"20px"}} >{hum}</span>% </div>
             <div>Description</div>
         </div>
         </div>
+        // </div>
     );
 }
 

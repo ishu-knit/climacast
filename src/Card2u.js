@@ -8,7 +8,7 @@ export default function Card2() {
   const {wind,setwind} = useContext(windstatus);
 
   return (
-    <div className='container'>
+ 
 
     <div className='cards'>
     <div>
@@ -16,7 +16,6 @@ export default function Card2() {
     </div>
     <div>Graph</div>
     <div> <span style={{fontWeight:"bolder" , fontSize:"20px"}}> {wind}</span>  km/h </div>
-    </div>
     </div>
   )
 }

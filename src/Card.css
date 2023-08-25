@@ -1,37 +1,51 @@
-.cards{
-    color: aliceblue;
-    background-color:#1F3F51 ;
-    border: 3px solid red ;
-    border-radius: 11px;
-    height: 10rem;
-
+.top{
+    display: flex;
 }
 
 
-.left_cards{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    justify-content: center;
+.cards{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 32.5%;
+    height: 12rem;
     color: aliceblue;
     background-color:#1F3F51 ;
     border: 3px solid red ;
     border-radius: 11px;
-   
+    background: rgb(18,13,111);
+}
+
+/* card1 */
+.left_cards{
+margin: 10px;
+    color: aliceblue;  
+    border: 3px solid red ;
+    border-radius: 11px;
+background: linear-gradient(to bottom right, rgba(18,13,111,1) 2%, rgba(7,120,143,1) 42%, rgba(15,15,101,1) 88%);
 
 }
 
 .left_cards div{
     margin: 10px;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
+.lower , .up{
+    display: flex;
+}
 .scards{
+    
+    width: 33%;
+    height: 8.5rem;
     color: aliceblue;
-    background-color:#1F3F51 ;
-    border: 3px solid red ;
+    background: rgb(18,13,111);
+    border: 3px solid rgb(192, 42, 42) ;
     border-radius: 11px;
-
-
 }
 
 .scards div{
@@ -45,6 +59,9 @@
 .bcards{
     color: aliceblue;
     background-color:#1F3F51 ;
-    border: 3px solid red ;
     border-radius: 11px; 
+    margin: 10px;
+    
 }
+
+

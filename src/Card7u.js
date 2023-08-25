@@ -10,9 +10,11 @@ export default function Card7u() {
 const {feel,setFeel} = useContext(feelslike);
 
   return (
-    <div className='container'>
+    // <div className='container'>
 
     <div className="scards"> 
+    <div>
+
     <div>
       feels_like <DeviceThermostatIcon fontSize='sm'/>
       </div>
@@ -20,7 +22,8 @@ const {feel,setFeel} = useContext(feelslike);
     {feel}
       </div>
     </div>
-  
     </div>
+  
+    // </div>
   )
 }
