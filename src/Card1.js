@@ -47,7 +47,6 @@ return (
   <>
 <Fetch/>
 
-    <div className='container'>
     <div  className='left_cards'>
 
     <div>
@@ -60,23 +59,22 @@ return (
     {adding()}
    }}
 
-   style={{border:"none" , borderBottom:"3px solid black", outline:"None", color:"white" ,backgroundColor:"transparent" , marginBottom:"13px" , marginTop:"28px"}}
+   style={{border:"none" , borderBottom:"3px solid black", outline:"None", color:"white" ,backgroundColor:"transparent" }}
    />
     </div>
 
         <div>
-       <img className='mainimg' style={{  width:"100px" ,  height:"100px", filter:"brightness(2)" ,display:"inline-block", background:"transparent"}} src={`https://openweathermap.org/img/wn/${icon}.png`}  alt="lk"  height= "60px" />
+       <img  style={{  filter:"brightness(2)" , background:"transparent"}} src={`https://openweathermap.org/img/wn/${icon}.png`}  alt="lk"   />
         </div>
 
       <div style={{fontSize:"2rem"}}>{temp}°C</div>
       <div style={{fontSize:"1.3rem"}}>{con}</div>
-      {/* <span></span> */}
-      <hr width="250px" color='#203744'></hr>
+      <hr  color='#203744'></hr>
       
       <div > <CalendarMonthIcon fontSize='sm' /> {date.getDate()}-{ months[date.getMonth()]} ,{date.getFullYear()} </div>
       <div><LocationOnIcon fontSize='sm'/>{area}</div>
     </div>
-    </div>
+
     </>
   )
 }

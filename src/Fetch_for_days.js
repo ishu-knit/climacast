@@ -40,11 +40,11 @@ setimgadd(arr)
 
     return (
     <>
-    <div className='bcards' style={{border:"3px solid red"}}>
+    <div className='bcards' style={{border:"3px solid grey"}}>
     {days.map((ele,i)=>(
         <div key={i+111}>
         
-        <div style={{fontSize:"12px",color:"white" ,margin:"10px" , display:"flex" , flexDirection:"row" , justifyContent:"space-evenly" , alignItems:"center"}}>
+        <div style={{color:"white" ,margin:"10px" , display:"flex" , flexDirection:"row" , justifyContent:"space-evenly" , alignItems:"center"}}>
         <div>
         <img src= {`https://openweathermap.org/img/wn/${imgadd[i].weather[0].icon}.png`} alt="adf"  />
         </div>
