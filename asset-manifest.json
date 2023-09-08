@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/climacast/static/css/main.82490133.css",
-    "main.js": "/climacast/static/js/main.5385fc01.js",
+    "main.css": "/climacast/static/css/main.6d9bdbe3.css",
+    "main.js": "/climacast/static/js/main.89f9205f.js",
     "static/js/787.013d5d65.chunk.js": "/climacast/static/js/787.013d5d65.chunk.js",
     "index.html": "/climacast/index.html",
-    "main.82490133.css.map": "/climacast/static/css/main.82490133.css.map",
-    "main.5385fc01.js.map": "/climacast/static/js/main.5385fc01.js.map",
+    "main.6d9bdbe3.css.map": "/climacast/static/css/main.6d9bdbe3.css.map",
+    "main.89f9205f.js.map": "/climacast/static/js/main.89f9205f.js.map",
     "787.013d5d65.chunk.js.map": "/climacast/static/js/787.013d5d65.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82490133.css",
-    "static/js/main.5385fc01.js"
+    "static/css/main.6d9bdbe3.css",
+    "static/js/main.89f9205f.js"
   ]
 }
