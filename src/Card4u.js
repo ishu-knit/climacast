@@ -13,9 +13,9 @@ const Card4u = () => {
 
         <div>
 
-        <div>humidity <WaterDropIcon fontSize="9px"/> </div>
+        <div>Humidity <WaterDropIcon fontSize="9px"/> </div>
             <div><span style={{fontWeight:"bolder" , fontSize:"20px"}} >{hum}</span>% </div>
-            <div>Description</div>
+            <div>{hum<90?("less humid"):("Humid enviroment ")}</div>
         </div>
         </div>
         // </div>

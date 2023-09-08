@@ -1,3 +1,9 @@
+.top{
+    border: 3px solid grey;
+    border-radius: 9px;
+    margin-bottom: 80px;
+}
+
 
 .upper , .lower{
     display: flex;
@@ -68,7 +74,10 @@ background: linear-gradient(to bottom right, rgba(18,13,111,1) 2%, rgba(7,120,14
 .bcards{
     color: aliceblue;
     background-color:#1F3F51 ;
-    border-radius: 11px;    
+    border-radius: 11px; 
+    
+
+
 } 
 
 .chart-container {

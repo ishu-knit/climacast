@@ -14,7 +14,7 @@ export default function Bottom_left() {
     <div>
      <div style={{color:"white" , margin:"10px"  , fontSize:"20px" , textAlign:"center"}}>
 
-      5days Forecast
+      5-Days Forecast
      </div>
       <Fetch_for_days/>
      

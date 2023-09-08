@@ -9,6 +9,20 @@ export default function Card7u() {
 
 const {feel,setFeel} = useContext(feelslike);
 
+
+let content 
+const temp =  Math.round(feel- 273.15)
+
+if (temp>24)
+{content= "Hotter" }
+else if (temp>=20 || temp<=22)
+{content= "Room temp"}
+else if (temp<20)
+{content= "Colder"}
+
+
+
+
   return (
     // <div className='container'>
 
@@ -16,10 +30,14 @@ const {feel,setFeel} = useContext(feelslike);
     <div>
 
     <div>
-      feels_like <DeviceThermostatIcon fontSize='sm'/>
+      Feels_like <DeviceThermostatIcon fontSize='sm'/>
       </div>
       <div>
-    {feel}
+    {  temp}°C
+      </div>
+
+      <div>
+        {content}
       </div>
     </div>
     </div>

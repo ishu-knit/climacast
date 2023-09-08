@@ -2,7 +2,7 @@ import React from 'react'
 import ReactSpeedometer from "react-d3-speedometer"
 import { pressure } from './App'
 import { useContext } from 'react';
-
+import TireRepairIcon from '@mui/icons-material/TireRepair';
 
 
 export default function Card3u() {
@@ -12,8 +12,8 @@ const {pres,setPres} = useContext(pressure);
   return (
     <div className='cards'>
 
-<div style={{ display:"flex" , flexDirection:"column"  }}>
-      <div >pressure</div>
+<div style={{ display:"flex" , flexDirection:"column" , justifyContent:"center"  }}>
+      <div >Pressure <TireRepairIcon fontSize='9px'/></div>
       <div> <span style={{fontWeight:"bolder" , fontSize:"20px"}}> {pres}</span> mbar  </div>
       <div style={{}} >
         <ReactSpeedometer

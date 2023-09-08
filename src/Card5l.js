@@ -15,9 +15,9 @@ const {vis,setVis} = useContext(visibile);
 <div>
 
 
-    <div>visibility <VisibilityIcon fontSize='9px'/></div>
+    <div>Visibility <VisibilityIcon fontSize='9px'/></div>
     <div><span style={{fontWeight:"bolder" , fontSize:"20px" }} >  {vis} </span> km </div>      
-    <div> Description </div>
+    <div> {vis<2?(" Low visibility"):("Visibility clear")}</div>
     </div>
 </div>
     // </div>
