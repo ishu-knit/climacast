@@ -2,7 +2,7 @@
 import './App.css';
 import Top from './top';
 import Bottom from "./bottom"
-import { temperature, condition, windstatus, humid, visibile ,areaname , feelslike , icons} from "./GlobalVars"
+import { temperature, condition, windstatus, humid, visibile ,areaname , feelslike , icons,pressure} from "./GlobalVars"
 import { useState } from 'react';
 
 
@@ -16,10 +16,14 @@ function App() {
   const [area, setArea] = useState("pune");
   const [feel, setFeel] = useState(0);
   const [icon, setIcon] = useState("");
+  const [pres, setPres] = useState(0);
   return (
     <>
 
     <div className="app"> 
+
+    <pressure.Provider value={{pres,setPres}}>
+
 
 <icons.Provider value={{icon,setIcon}}>
 
@@ -42,11 +46,11 @@ function App() {
     </areaname.Provider>
     </feelslike.Provider>
 </icons.Provider>
+    </pressure.Provider>
     </div>
-
     </>
   );
 }
 
 export default App;
-export {temperature,condition, windstatus,humid,visibile , areaname , feelslike , icons }
+export {temperature,condition, windstatus,humid,visibile , areaname , feelslike , icons , pressure }

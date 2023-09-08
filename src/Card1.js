@@ -11,7 +11,6 @@ import Fetch_for_days from './Fetch_for_days.js';
 import "./Card.css"
 import { height } from '@mui/system';
 
-
 export default function Card1() {
 
   const {temp,setTemp} = useContext(temperature)

@@ -29,6 +29,7 @@ fetch("http://api.openweathermap.org/data/2.5/forecast?q=" + area+"&appid=7cfee4
 .then(x=>x.json())
 .then(y=>{
 
+  console.log(y)
 const insert = [ y.list[0].main.temp, y.list[5].main.temp,y.list[13].main.temp ,  y.list[21].main.temp ,  y.list[29].main.temp]
 setDays(insert)
 

@@ -1,0 +1,36 @@
+/* suntime.css */
+
+/* Change the color of the track (the bar) */
+input[type=range]{
+    -webkit-appearance: none;
+    outline: none;
+    width: 60%;
+    height: 10px;
+    background: black; /* Set background color to black */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    border-radius: 2000px;
+  }
+  
+  /* Change the color of the thumb (slider handle) */
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+
+    width: 20px;
+    height: 20px;
+    background-image: radial-gradient(circle,yellow 40% , gold 45%);
+    /* background: rgb(255, 119, 0); Set thumb color to orange */
+    border-radius: 50%;
+    box-shadow: -410px 0 0 400px orange;
+  }
+  
+  /* Optional: Style for Mozilla Firefox */
+  input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: orange; /* Set thumb color to orange */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  

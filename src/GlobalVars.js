@@ -16,4 +16,6 @@ const feelslike = createContext()
 
 const icons = createContext()
 
-export  {temperature,condition, windstatus,humid,visibile , areaname , feelslike , icons}
+const pressure = createContext()
+
+export  {temperature,condition, windstatus,humid,visibile , areaname , feelslike , icons , pressure}

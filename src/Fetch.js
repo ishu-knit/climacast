@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect , useState } from 'react';
 import { useContext } from 'react';
-import {temperature,condition, windstatus,humid,visibile, areaname ,feelslike ,icons} from "./App.js"
+import {temperature,condition, windstatus,humid,visibile, areaname ,feelslike ,icons,pressure} from "./App.js"
 
 
 
@@ -16,17 +16,14 @@ const Fetch = () => {
     const {area, setArea} = useContext(areaname);
     const {icon , setIcon} = useContext(icons);
     const {feel,setFeel} = useContext(feelslike);
-    
+    const {pres,setPres} = useContext(pressure);
 
     useEffect(() => {
 
-        // if (!initial)
-        // {
-        
         fetch("https://api.openweathermap.org/data/2.5/weather?q=" + area + "&appid=877c1f7d0938d6c1e3c2ff50f4b898d5")
         .then(x=>x.json())
         .then(y=>{
-        // console.log(y)
+        console.log("d",y)
           setCon(y.weather[0].main)
           setTemp( Math.round (y.main.temp - 273.15))
           setHum(y.main.humidity)
@@ -35,6 +32,7 @@ const Fetch = () => {
           setArea(y.name)
           setFeel(y.main.feels_like)
           setIcon(y.weather[0].icon)
+            setPres(y.main.pressure)
         }) 
 
     }, [area]);

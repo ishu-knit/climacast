@@ -1,5 +1,8 @@
 import React from 'react'
 import { useState,useEffect } from 'react';
+import "./suntime.css"
+
+
 export default function Suntime() {
 
   const [time, setTime] = useState(new Date());
@@ -22,8 +25,20 @@ const formattedtime = time.toLocaleTimeString()
   return (
     <div className='cards'>
         <div>Sunrise & Sunset</div>
-        {/* <input type="range" value="-5" min="-6" max="6"></input> */}
+        <div>
+
+        </div>
+
+        <div style={{marginTop:"50px"}}>
+        6AM
+        <input  type="range" value={formattedtime} min="06:00:00" max="18:00:00"/>
+        6PM
+        </div>
+
+
+        <div style={{marginTop:"50px" , textAlign:"center"}}>
         {formattedtime}
+        </div>
 
    
     </div>

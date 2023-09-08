@@ -1,47 +1,3 @@
-/* 
-
-
-.cards{
-
-    color: aliceblue;
-    background-color:#1F3F51 ;
-    border: 3px solid red ;
-    border-radius: 11px;
-    background: rgb(18,13,111);
-}
-
-
-.left_cards{
-    color: aliceblue;  
-    border: 3px solid red ;
-    border-radius: 11px;
-background: linear-gradient(to bottom right, rgba(18,13,111,1) 2%, rgba(7,120,143,1) 42%, rgba(15,15,101,1) 88%);
-
-}
-
-.scards{
-    
-
-    color: aliceblue;
-    background: rgb(18,13,111);
-    border: 3px solid rgb(192, 42, 42) ;
-    border-radius: 11px;
-}
-
-.scards div{
-    margin: 10px;
-}
-.cards div
-{ margin: 4px;}
-
-
-
-.bcards{
-    color: aliceblue;
-    background-color:#1F3F51 ;
-    border-radius: 11px;    
-} */
-
 
 .upper , .lower{
     display: flex;
@@ -56,6 +12,7 @@ background: linear-gradient(to bottom right, rgba(18,13,111,1) 2%, rgba(7,120,14
     width: 33%;
     margin: 0.5rem;
     margin-bottom: 3rem;
+    color:aliceblue;
     background: linear-gradient(to bottom right, rgba(18,13,111,1) 2%, rgba(7,120,143,1) 42%, rgba(15,15,101,1) 88%);
     border-radius: 10px;
 
@@ -70,6 +27,7 @@ background: linear-gradient(to bottom right, rgba(18,13,111,1) 2%, rgba(7,120,14
     width: 33%;
     height: 6.5rem;
     margin: 0.5rem;
+    color: aliceblue;
     background: linear-gradient(to bottom right, rgba(18,13,111,1) 2%, rgba(7,120,143,1) 42%, rgba(15,15,101,1) 88%);
     border-radius: 10px;
 }
@@ -113,3 +71,12 @@ background: linear-gradient(to bottom right, rgba(18,13,111,1) 2%, rgba(7,120,14
     border-radius: 11px;    
 } 
 
+.chart-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    height: 8.9rem;
+
+  }
+  

@@ -1,0 +1,1 @@
+"http://api.openweathermap.org/data/2.5/forecast?q=" + area+"&appid=7cfee4778ad9117fe9286233a14511ed"
